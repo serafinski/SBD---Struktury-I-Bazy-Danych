@@ -1,3 +1,5 @@
+--/SKŁADNIA MICROSOFT SQL SERVER/--
+
 --1
 --Wypisz wszystkich klientów hotelu w kolejności alfabetycznej (sortując po nazwisku i imieniu).
 SELECT * FROM GOSC ORDER BY IMIE,NAZWISKO;
