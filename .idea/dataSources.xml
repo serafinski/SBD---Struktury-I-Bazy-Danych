@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="2019SBD@db-mssql.pjwstk.edu.pl" uuid="2b56ba8d-088e-4275-89ab-1b5057ed353c">
-      <driver-ref>sqlserver.jtds</driver-ref>
+    <data-source source="LOCAL" name="@db-oracle02.pjwstk.edu.pl" uuid="a2eb9894-4065-4957-b9bf-b48d8004f5e2">
+      <driver-ref>oracle.19</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>net.sourceforge.jtds.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:jtds:sqlserver://db-mssql.pjwstk.edu.pl/2019SBD</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-      <driver-properties>
-        <property name="USENTLMV2" value="true" />
-        <property name="DOMAIN" value="PJWSTK" />
-      </driver-properties>
-    </data-source>
-    <data-source source="LOCAL" name="Microsoft SQL Server (jTds)" uuid="ce55ce29-3a21-4fe1-8ce0-493382680d93">
-      <driver-ref>sqlserver.jtds</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>net.sourceforge.jtds.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:jtds:sqlserver://./</jdbc-url>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@//db-oracle02.pjwstk.edu.pl:1521/baza.pjwstk.edu.pl</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
